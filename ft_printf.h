@@ -6,7 +6,7 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/12 18:59:23 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/12/12 19:16:21 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/12/13 14:05:23 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define FT_PRINTF_H
 # include "previous_projects/libft/libft.h"
 # include <stdarg.h>
+# include <stdint.h>
 # include <stdlib.h>
 # include <unistd.h>
 
