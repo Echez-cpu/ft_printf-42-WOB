@@ -6,7 +6,7 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/12 16:49:33 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/12/12 17:16:43 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/12/13 14:01:03 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ char	*ft_usignd_itoa(unsigned int nb)
 	len = ft_length_unsignd(nb);
 	str = (char *)malloc(sizeof(char) * (len + 1));
 	if (!str)
-		return (0);
+		return ((void *)0);
 	str[len] = '\0';
 	while (nb != 0)
 	{
